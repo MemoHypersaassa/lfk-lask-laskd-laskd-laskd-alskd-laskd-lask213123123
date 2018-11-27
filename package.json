@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shadow0o0/gboty.git"
+    "url": "git+https://github.com/MemoHypersaassa/gboty.git"
   },
   "author": "GarZ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shadow0o0/gboty/issues"
+    "url": "https://github.com/MemoHypersaassa/gboty/issues"
   },
-  "homepage": "https://github.com/shadow0o0/gboty#readme",
+  "homepage": "https://github.com/MemoHypersaassa/gboty#readme",
   "dependencies": {
 
     "discord.js": "^11.3.2",
