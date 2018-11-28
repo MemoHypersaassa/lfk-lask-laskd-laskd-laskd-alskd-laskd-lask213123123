@@ -49,462 +49,642 @@ fs.readdir("./others/", (err, files) => {
     console.log(`${f} loaded!`);
   });
 });
-bot.on("message", async message => {
-  if (message.author.bot) return;
-  if (message.channel.type ==="dm") return;
-  if (!message.guild) return;
-if(message.author.id !=='377871082767515648') return;
-  if (message.content === '/join') {
-    if (message.member.voiceChannel) {
-      message.member.voiceChannel.join()
-        .then(connection => {})
-        .catch(console.log);
-    } else {
-      message.reply('You need to join a voice channel first!');
-    }
-  }
-  })
-bot1.on("message", async message => {
-  if (message.author.bot) return;
-  if (message.channel.type ==="dm") return;
-  if (!message.guild) return;
-if(message.author.id !=='377871082767515648') return;
-  if (message.content === '/join') {
-    if (message.member.voiceChannel) {
-      message.member.voiceChannel.join()
-        .then(connection => {})
-        .catch(console.log);
-    } else {
-      message.reply('You need to join a voice channel first!');
-    }
-  }
-  });
-  bot2.on("message", async message => {
-    if (message.author.bot) return;
-    if (message.channel.type ==="dm") return;
-    if (!message.guild) return;
-  if(message.author.id !=='377871082767515648') return;
-    if (message.content === '/join') {
-      if (message.member.voiceChannel) {
-        message.member.voiceChannel.join()
-          .then(connection => {})
-          .catch(console.log);
-      } else {
-        message.reply('You need to join a voice channel first!');
-      }
-    }
-    });
-    bot3.on("message", async message => {
-      if (message.author.bot) return;
-      if (message.channel.type ==="dm") return;
-      if (!message.guild) return;
-    if(message.author.id !=='377871082767515648') return;
-      if (message.content === '/join') {
-        if (message.member.voiceChannel) {
-          message.member.voiceChannel.join()
-            .then(connection => {})
-            .catch(console.log);
-        } else {
-          message.reply('You need to join a voice channel first!');
-        }
-      }
-      });
-      bot4.on("message", async message => {
-        if (message.author.bot) return;
-        if (message.channel.type ==="dm") return;
-        if (!message.guild) return;
-      if(message.author.id !=='377871082767515648') return;
-        if (message.content === '/join') {
-          if (message.member.voiceChannel) {
-            message.member.voiceChannel.join()
-              .then(connection => {})
-              .catch(console.log);
-          } else {
-            message.reply('You need to join a voice channel first!');
-          }
-        }
-        });
-        bot5.on("message", async message => {
-          if (message.author.bot) return;
-          if (message.channel.type ==="dm") return;
-          if (!message.guild) return;
-        if(message.author.id !=='377871082767515648') return;
-          if (message.content === '/join') {
-            if (message.member.voiceChannel) {
-              message.member.voiceChannel.join()
-                .then(connection => {})
-                .catch(console.log);
-            } else {
-              message.reply('You need to join a voice channel first!');
-            }
-          }
-          });
-          bot6.on("message", async message => {
-            if (message.author.bot) return;
-            if (message.channel.type ==="dm") return;
-            if (!message.guild) return;
-          if(message.author.id !=='377871082767515648') return;
-            if (message.content === '/join') {
-              if (message.member.voiceChannel) {
-                message.member.voiceChannel.join()
-                  .then(connection => {})
-                  .catch(console.log);
-              } else {
-                message.reply('You need to join a voice channel first!');
-              }
-            }
-            });
-            bot7.on("message", async message => {
-              if (message.author.bot) return;
-              if (message.channel.type ==="dm") return;
-              if (!message.guild) return;
-            if(message.author.id !=='377871082767515648') return;
-              if (message.content === '/join') {
-                if (message.member.voiceChannel) {
-                  message.member.voiceChannel.join()
-                    .then(connection => {})
-                    .catch(console.log);
-                } else {
-                  message.reply('You need to join a voice channel first!');
-                }
-              }
-              });
-              bot8.on("message", async message => {
-                if (message.author.bot) return;
-                if (message.channel.type ==="dm") return;
-                if (!message.guild) return;
-              if(message.author.id !=='377871082767515648') return;
-                if (message.content === '/join') {
-                  if (message.member.voiceChannel) {
-                    message.member.voiceChannel.join()
-                      .then(connection => {})
-                      .catch(console.log);
-                  } else {
-                    message.reply('You need to join a voice channel first!');
-                  }
-                }
-                });
-                bot9.on("message", async message => {
-                  if (message.author.bot) return;
-                  if (message.channel.type ==="dm") return;
-                  if (!message.guild) return;
-                if(message.author.id !=='377871082767515648') return;
-                  if (message.content === '/join') {
-                    if (message.member.voiceChannel) {
-                      message.member.voiceChannel.join()
-                        .then(connection => {})
-                        .catch(console.log);
-                    } else {
-                      message.reply('You need to join a voice channel first!');
-                    }
-                  }
-                  });
-                  bot10.on("message", async message => {
-                    if (message.author.bot) return;
-                    if (message.channel.type ==="dm") return;
-                    if (!message.guild) return;
-                  if(message.author.id !=='377871082767515648') return;
-                    if (message.content === '/join') {
-                      if (message.member.voiceChannel) {
-                        message.member.voiceChannel.join()
-                          .then(connection => {})
-                          .catch(console.log);
-                      } else {
-                        message.reply('You need to join a voice channel first!');
-                      }
-                    }
-                    });
-                    bot11.on("message", async message => {
-                      if (message.author.bot) return;
-                      if (message.channel.type ==="dm") return;
-                      if (!message.guild) return;
-                    if(message.author.id !=='377871082767515648') return;
-                      if (message.content === '/join') {
-                        if (message.member.voiceChannel) {
-                          message.member.voiceChannel.join()
-                            .then(connection => {})
-                            .catch(console.log);
-                        } else {
-                          message.reply('You need to join a voice channel first!');
-                        }
-                      }
-                      });
-                      bot12.on("message", async message => {
-                        if (message.author.bot) return;
-                        if (message.channel.type ==="dm") return;
-                        if (!message.guild) return;
-                      if(message.author.id !=='377871082767515648') return;
-                        if (message.content === '/join') {
-                          if (message.member.voiceChannel) {
-                            message.member.voiceChannel.join()
-                              .then(connection => {})
-                              .catch(console.log);
-                          } else {
-                            message.reply('You need to join a voice channel first!');
-                          }
-                        }
-                        });
-                        bot13.on("message", async message => {
-                          if (message.author.bot) return;
-                          if (message.channel.type ==="dm") return;
-                          if (!message.guild) return;
-                        if(message.author.id !=='377871082767515648') return;
-                          if (message.content === '/join') {
-                            if (message.member.voiceChannel) {
-                              message.member.voiceChannel.join()
-                                .then(connection => {})
-                                .catch(console.log);
-                            } else {
-                              message.reply('You need to join a voice channel first!');
-                            }
-                          }
-                          });
-                          bot14.on("message", async message => {
-                            if (message.author.bot) return;
-                            if (message.channel.type ==="dm") return;
-                            if (!message.guild) return;
-                          if(message.author.id !=='377871082767515648') return;
-                            if (message.content === '/join') {
-                              if (message.member.voiceChannel) {
-                                message.member.voiceChannel.join()
-                                  .then(connection => {})
-                                  .catch(console.log);
-                              } else {
-                                message.reply('You need to join a voice channel first!');
-                              }
-                            }
-                            });
+bot.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+bot1.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+  bot2.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+    bot3.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+      bot4.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+        bot5.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+          bot6.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+            bot7.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+              bot8.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                bot9.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                  bot10.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                    bot11.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                      bot12.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                        bot13.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                          bot14.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
 
                             //////////////////////////////////////////////
 
 
 
 
-                            bot15.on("message", async message => {
-                              if (message.author.bot) return;
-                              if (message.channel.type ==="dm") return;
-                              if (!message.guild) return;
-                            if(message.author.id !=='377871082767515648') return;
-                              if (message.content === '/join') {
-                                if (message.member.voiceChannel) {
-                                  message.member.voiceChannel.join()
-                                    .then(connection => {})
-                                    .catch(console.log);
-                                } else {
-                                  message.reply('You need to join a voice channel first!');
-                                }
-                              }
-                              })
-                            bot16.on("message", async message => {
-                              if (message.author.bot) return;
-                              if (message.channel.type ==="dm") return;
-                              if (!message.guild) return;
-                            if(message.author.id !=='377871082767515648') return;
-                              if (message.content === '/join') {
-                                if (message.member.voiceChannel) {
-                                  message.member.voiceChannel.join()
-                                    .then(connection => {})
-                                    .catch(console.log);
-                                } else {
-                                  message.reply('You need to join a voice channel first!');
-                                }
-                              }
-                              });
-                              bot17.on("message", async message => {
-                                if (message.author.bot) return;
-                                if (message.channel.type ==="dm") return;
-                                if (!message.guild) return;
-                              if(message.author.id !=='377871082767515648') return;
-                                if (message.content === '/join') {
-                                  if (message.member.voiceChannel) {
-                                    message.member.voiceChannel.join()
-                                      .then(connection => {})
-                                      .catch(console.log);
-                                  } else {
-                                    message.reply('You need to join a voice channel first!');
-                                  }
-                                }
-                                });
-                                bot18.on("message", async message => {
-                                  if (message.author.bot) return;
-                                  if (message.channel.type ==="dm") return;
-                                  if (!message.guild) return;
-                                if(message.author.id !=='377871082767515648') return;
-                                  if (message.content === '/join') {
-                                    if (message.member.voiceChannel) {
-                                      message.member.voiceChannel.join()
-                                        .then(connection => {})
-                                        .catch(console.log);
-                                    } else {
-                                      message.reply('You need to join a voice channel first!');
-                                    }
-                                  }
-                                  });
-                                  bot19.on("message", async message => {
-                                    if (message.author.bot) return;
-                                    if (message.channel.type ==="dm") return;
-                                    if (!message.guild) return;
-                                  if(message.author.id !=='377871082767515648') return;
-                                    if (message.content === '/join') {
-                                      if (message.member.voiceChannel) {
-                                        message.member.voiceChannel.join()
-                                          .then(connection => {})
-                                          .catch(console.log);
-                                      } else {
-                                        message.reply('You need to join a voice channel first!');
-                                      }
-                                    }
-                                    });
-                                    bot20.on("message", async message => {
-                                      if (message.author.bot) return;
-                                      if (message.channel.type ==="dm") return;
-                                      if (!message.guild) return;
-                                    if(message.author.id !=='377871082767515648') return;
-                                      if (message.content === '/join') {
-                                        if (message.member.voiceChannel) {
-                                          message.member.voiceChannel.join()
-                                            .then(connection => {})
-                                            .catch(console.log);
-                                        } else {
-                                          message.reply('You need to join a voice channel first!');
-                                        }
-                                      }
-                                      });
-                                      bot21.on("message", async message => {
-                                        if (message.author.bot) return;
-                                        if (message.channel.type ==="dm") return;
-                                        if (!message.guild) return;
-                                      if(message.author.id !=='377871082767515648') return;
-                                        if (message.content === '/join') {
-                                          if (message.member.voiceChannel) {
-                                            message.member.voiceChannel.join()
-                                              .then(connection => {})
-                                              .catch(console.log);
-                                          } else {
-                                            message.reply('You need to join a voice channel first!');
-                                          }
-                                        }
-                                        });
-                                        bot22.on("message", async message => {
-                                          if (message.author.bot) return;
-                                          if (message.channel.type ==="dm") return;
-                                          if (!message.guild) return;
-                                        if(message.author.id !=='377871082767515648') return;
-                                          if (message.content === '/join') {
-                                            if (message.member.voiceChannel) {
-                                              message.member.voiceChannel.join()
-                                                .then(connection => {})
-                                                .catch(console.log);
-                                            } else {
-                                              message.reply('You need to join a voice channel first!');
-                                            }
-                                          }
-                                          });
-                                          bot23.on("message", async message => {
-                                            if (message.author.bot) return;
-                                            if (message.channel.type ==="dm") return;
-                                            if (!message.guild) return;
-                                          if(message.author.id !=='377871082767515648') return;
-                                            if (message.content === '/join') {
-                                              if (message.member.voiceChannel) {
-                                                message.member.voiceChannel.join()
-                                                  .then(connection => {})
-                                                  .catch(console.log);
-                                              } else {
-                                                message.reply('You need to join a voice channel first!');
-                                              }
-                                            }
-                                            });
-                                            bot24.on("message", async message => {
-                                              if (message.author.bot) return;
-                                              if (message.channel.type ==="dm") return;
-                                              if (!message.guild) return;
-                                            if(message.author.id !=='377871082767515648') return;
-                                              if (message.content === '/join') {
-                                                if (message.member.voiceChannel) {
-                                                  message.member.voiceChannel.join()
-                                                    .then(connection => {})
-                                                    .catch(console.log);
-                                                } else {
-                                                  message.reply('You need to join a voice channel first!');
-                                                }
-                                              }
-                                              });
-                                              bot25.on("message", async message => {
-                                                if (message.author.bot) return;
-                                                if (message.channel.type ==="dm") return;
-                                                if (!message.guild) return;
-                                              if(message.author.id !=='377871082767515648') return;
-                                                if (message.content === '/join') {
-                                                  if (message.member.voiceChannel) {
-                                                    message.member.voiceChannel.join()
-                                                      .then(connection => {})
-                                                      .catch(console.log);
-                                                  } else {
-                                                    message.reply('You need to join a voice channel first!');
-                                                  }
-                                                }
-                                                });
-                                                bot26.on("message", async message => {
-                                                  if (message.author.bot) return;
-                                                  if (message.channel.type ==="dm") return;
-                                                  if (!message.guild) return;
-                                                if(message.author.id !=='377871082767515648') return;
-                                                  if (message.content === '/join') {
-                                                    if (message.member.voiceChannel) {
-                                                      message.member.voiceChannel.join()
-                                                        .then(connection => {})
-                                                        .catch(console.log);
-                                                    } else {
-                                                      message.reply('You need to join a voice channel first!');
-                                                    }
-                                                  }
-                                                  });
-                                                  bot27.on("message", async message => {
-                                                    if (message.author.bot) return;
-                                                    if (message.channel.type ==="dm") return;
-                                                    if (!message.guild) return;
-                                                  if(message.author.id !=='377871082767515648') return;
-                                                    if (message.content === '/join') {
-                                                      if (message.member.voiceChannel) {
-                                                        message.member.voiceChannel.join()
-                                                          .then(connection => {})
-                                                          .catch(console.log);
-                                                      } else {
-                                                        message.reply('You need to join a voice channel first!');
-                                                      }
-                                                    }
-                                                    });
-                                                    bot28.on("message", async message => {
-                                                      if (message.author.bot) return;
-                                                      if (message.channel.type ==="dm") return;
-                                                      if (!message.guild) return;
-                                                    if(message.author.id !=='377871082767515648') return;
-                                                      if (message.content === '/join') {
-                                                        if (message.member.voiceChannel) {
-                                                          message.member.voiceChannel.join()
-                                                            .then(connection => {})
-                                                            .catch(console.log);
-                                                        } else {
-                                                          message.reply('You need to join a voice channel first!');
-                                                        }
-                                                      }
-                                                      });
-                                                      bot29.on("message", async message => {
-                                                        if (message.author.bot) return;
-                                                        if (message.channel.type ==="dm") return;
-                                                        if (!message.guild) return;
-                                                      if(message.author.id !=='377871082767515648') return;
-                                                        if (message.content === '/join') {
-                                                          if (message.member.voiceChannel) {
-                                                            message.member.voiceChannel.join()
-                                                              .then(connection => {})
-                                                              .catch(console.log);
-                                                          } else {
-                                                            message.reply('You need to join a voice channel first!');
-                                                          }
-                                                        }
-                                                        });
+                            bot15.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                            bot16.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                              bot17.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                bot18.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                  bot19.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                    bot20.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                      bot21.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                        bot22.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                          bot23.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                            bot24.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                              bot25.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                                bot26.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                                  bot27.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                                    bot28.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
+                                                      bot29.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**لربمأ نسقط مره مرتان او ثلاث لاكن لا نفقد الامل دامنا سوا :black_heart: 
+- 
+مجتمع و اعضأء و اخوه و افضل سيرفر العاب و بطولات ماليه :black_heart: 
+- 
+لآ تحرمنا من اننا نسمع لك او نتعرف عليكِ و كذا :black_heart: 
+-
+أحتمال بطولات فورتنايت ماليه قيمهه  :black_heart: 
+-
+متجر و مجتمع العاب و فعاليات :black_heart: 
+-
+نظرة عن السيرفر
+http://i8.ae/QkyX
+~
+Link : ** https://discord.gg/D7fHfnM
+الدعووة خاصة لك ... [ ${member}  ]
+`) 
+}).catch(console.error)
+})
                                                                                                                                                                                                                                                                                                                                                                                                                           
 bot.login('NDAzMzkzNTUyNjE0MjkzNTA2.DjpRIg.OK3iyaM2pZHAMrFO4-h19OOh9NE');
 bot1.login('NDAzMzk5ODUyMDYwMzExNTc0.DjpRfw.QY0RiIKt0HDbyfsIDN_9V-UETbM');
